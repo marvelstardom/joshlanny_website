@@ -1241,6 +1241,9 @@ select {
 .top-72 {
   top: 18rem;
 }
+.z-50 {
+  z-index: 50;
+}
 .m-0 {
   margin: 0px;
 }
@@ -1350,11 +1353,17 @@ select {
 .cursor-pointer {
   cursor: pointer;
 }
+.flex-row {
+  flex-direction: row;
+}
 .flex-col {
   flex-direction: column;
 }
 .items-center {
   align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
 }
 .justify-center {
   justify-content: center;
@@ -1476,6 +1485,9 @@ select {
 }
 .text-center {
   text-align: center;
+}
+.text-justify {
+  text-align: justify;
 }
 .text-4xl {
   font-size: 2.25rem;
